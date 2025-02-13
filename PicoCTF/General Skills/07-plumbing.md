@@ -9,6 +9,10 @@ Sometimes you need to handle process data outside of a file. Can you find a way 
 
 1. Mande la salida a un archivo
 2. Busque la bandera
+```cmd
+AsumomezaC-picoctf@webshell:~$ nc jupiter.challenges.picoctf.org 4427 > salida.txt
+AsumomezaC-picoctf@webshell:~$ cat salida.txt | grep pico picoCTF{digital_plumb3r_5ea1fbd7}
+```
 ## Sol 2
 2. Redirigí la bandera
 
