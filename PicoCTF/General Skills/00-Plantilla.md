@@ -1,12 +1,10 @@
 # Definición
 
-
 # Hints
-
 
 # Solución
 
-```cmd
+```bash
 
 ```
 
