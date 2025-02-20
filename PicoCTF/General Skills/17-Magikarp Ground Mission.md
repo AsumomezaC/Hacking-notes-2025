@@ -51,7 +51,7 @@ ctf-player@pico-chall$ cat 3of3.flag.txt
 71be5264}
 ```
 
->Nos conectamos con [[SSH]]
+>Nos conectamos con [[ic/sem8/Seguridad_Informacion/git/conceptos/comandos/linux/SSH]]
 >Vemos que contiene el archivo
 >Conseguimos las partes de las contraseñas y seguimos las instrucciones para ver donde esta lo demás.
 ## Respuesta

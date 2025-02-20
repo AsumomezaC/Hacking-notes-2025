@@ -43,6 +43,10 @@ Cuando te conectas por primera vez a un servidor, se te pedirá que aceptes la c
 Si el servidor requiere autenticación por contraseña, te pedirá que ingreses la contraseña después de la conexión.
 
 ### Usar SSH con puertos y redirección
+- **Conectarse a un puerto especifico**:
+```bash
+ssh user@host -p numberPort
+```
 
 - **Redirección de puertos locales**: Para redirigir un puerto local hacia un puerto en el servidor remoto:
 
