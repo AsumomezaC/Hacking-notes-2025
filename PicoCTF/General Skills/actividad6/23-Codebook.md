@@ -1,3 +1,4 @@
+#Software #Hacking #Principiante
 # Definición
 Run the Python script `code.py` in the same directory as `codebook.txt`.
 - [Download code.py](https://artifacts.picoctf.net/c/3/code.py)

@@ -1,3 +1,4 @@
+#Software #Hacking #Principiante
 # Definición
 Can you make sense of this file?Download the file [here](https://artifacts.picoctf.net/c/472/enc_flag).
 # Hints

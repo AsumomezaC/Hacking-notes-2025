@@ -1,3 +1,4 @@
+#Software #Hacking #Principiante
 # Definición
 There's an interesting script in the user's home directory
 

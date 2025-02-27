@@ -1,3 +1,4 @@
+#Software #Hacking #Principiante
 # Definición
 There is a nice program that you can talk to by using this command in a shell: `$ nc mercury.picoctf.net 49039`, but it doesn't speak English...
 

@@ -1,3 +1,4 @@
+#Software #Hacking #Principiante
 # Definición
 Using tabcomplete in the Terminal will add years to your life, esp. when dealing with long rambling directory structures and filenames: [Addadshashanammu.zip](https://mercury.picoctf.net/static/659efd595171e4c40378be6a2e9b7298/Addadshashanammu.zip)
 # Hints

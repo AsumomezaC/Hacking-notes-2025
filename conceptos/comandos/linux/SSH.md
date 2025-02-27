@@ -85,6 +85,66 @@ scp /ruta/local usuario@host:/ruta/remota
 - **Salir de una sesión SSH**: Para cerrar una sesión SSH, simplemente escribe el comando `exit` o presiona `Ctrl+D`.
     
 
+---
+
+Aquí tienes la información para agregar a tus apuntes en Obsidian sobre el uso de `-vvv` al conectarte a un servidor SSH:
+
+---
+
+# Uso de `-vvv` en SSH
+
+## 1. ¿Qué es `-vvv` en SSH?
+
+El argumento `-vvv` en el comando `ssh` aumenta el nivel de verbosidad de la conexión SSH, permitiendo diagnosticar problemas de conexión y depuración.
+
+## 2. Niveles de verbosidad en SSH
+
+SSH permite tres niveles de verbosidad para obtener más información sobre la conexión:
+
+- `-v` → Muestra información básica de depuración.
+- `-vv` → Muestra más detalles, incluyendo autenticación.
+- `-vvv` → Muestra información extremadamente detallada, útil para depuración avanzada.
+
+## 3. Ejemplo de uso
+
+```bash
+ssh -vvv usuario@servidor
+```
+
+Esto mostrará mensajes detallados sobre cada paso de la conexión, incluyendo:
+
+- Negociación de claves.
+- Métodos de autenticación intentados.
+- Algoritmos de cifrado usados.
+- Intentos de autenticación con clave pública y contraseña.
+
+## 4. ¿Cuándo usar `-vvv`?
+
+Usa `ssh -vvv` cuando:
+
+- No puedes conectarte y quieres ver el motivo exacto del error.
+- Necesitas verificar qué método de autenticación está fallando.
+- Quieres saber qué claves SSH se están usando.
+- Sospechas que hay problemas con el servidor SSH o el firewall.
+
+## 5. Ejemplo de salida
+
+```plaintext
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: Connecting to servidor [192.168.1.100] port 22.
+debug2: Local version string SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug2: KEX algorithms: curve25519-sha256,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256
+debug1: Host 'servidor' is known and matches the ECDSA key.
+debug1: Found key in /home/usuario/.ssh/known_hosts:5
+debug1: Authentications that can continue: publickey,password
+debug2: Trying private key: /home/usuario/.ssh/id_rsa
+debug2: Enabling compatibility mode for protocol 2.0
+debug1: Next authentication method: password
+```
+
+Esta información permite entender qué está ocurriendo en cada paso de la conexión SSH.
 ## Conclusión
 
 SSH es una herramienta esencial para la administración de servidores de manera segura. Ofrece una amplia variedad de opciones que permiten interactuar con servidores remotos de forma eficiente y segura.

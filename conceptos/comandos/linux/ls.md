@@ -156,3 +156,50 @@ Luego, recarga la configuración con:
 ```bash
 source ~/.bashrc
 ```
+
+---
+
+# Comando `ls -lath` en Linux
+
+## 1. ¿Qué es `ls -lath`?
+
+El comando `ls -lath` muestra el listado detallado de archivos en un directorio con varias opciones combinadas para visualizar información de manera más útil.
+
+## 2. Desglose de opciones
+
+- **`-l`** → Muestra los detalles en formato de lista (permisos, propietario, tamaño, fecha, etc.).
+- **`-a`** → Muestra todos los archivos, incluyendo los ocultos (los que empiezan con `.`).
+- **`-t`** → Ordena por fecha de modificación, mostrando primero los archivos más recientes.
+- **`-h`** → Muestra los tamaños de los archivos en un formato legible (KB, MB, GB en lugar de bytes).
+
+## 3. Ejemplo de uso
+
+```bash
+ls -lath
+```
+
+### Salida de ejemplo
+
+```plaintext
+total 2.3M
+drwxr-xr-x  4 usuario usuario 4.0K Feb 20 10:30 .
+drwxr-xr-x 20 usuario usuario 4.0K Feb 19 14:00 ..
+-rw-r--r--  1 usuario usuario 1.2M Feb 20 10:29 archivo_grande.log
+-rw-r--r--  1 usuario usuario 512K Feb 20 10:28 otro_archivo.txt
+drwxr-xr-x  2 usuario usuario 4.0K Feb 20 10:27 .config
+-rw-r--r--  1 usuario usuario  64K Feb 20 10:25 .archivo_oculto
+```
+
+## 4. ¿Para qué sirve `ls -lath`?
+
+Este comando es útil para:  
+✅ Ver detalles de archivos con permisos, propietario y tamaño.  
+✅ Incluir archivos ocultos en el listado.  
+✅ Ordenar los archivos según la última modificación.  
+✅ Mostrar tamaños en un formato fácil de entender.
+
+## 5. Alternativas útiles
+
+- **`ls -latr`** → Igual, pero ordena del más antiguo al más reciente.
+- **`ls -lah`** → Muestra todos los archivos sin ordenar por fecha.
+- **`ls -lt`** → Solo ordena por fecha sin incluir ocultos.
