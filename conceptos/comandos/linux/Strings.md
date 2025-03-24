@@ -1,4 +1,5 @@
-**Comando `string`**
+#Software #Comando #SistemaOperativo #Linux #Editar #Archivos 
+# Comando `string`
 
 ````markdown
 # Comando `string`

@@ -1,3 +1,4 @@
+#Comando #SistemaOperativo #Linux #Editar #Conexión #Redes #Archivos #Software 
 # Comando `netcat` (`nc`) en [[Linux]]
 
 ## ¿Qué es `netcat`?

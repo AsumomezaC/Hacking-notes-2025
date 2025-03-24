@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Permisos #Derechos
 # Permisos de Archivos en Linux
 
 ## 1. ¿Qué son los permisos en Linux?

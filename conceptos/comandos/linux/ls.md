@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Visualizar
 # Comando `ls` en Linux
 
 ## 1. ¿Qué es `ls`?

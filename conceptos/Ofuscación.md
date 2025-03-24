@@ -1,0 +1,3 @@
+#Software #Web #Internet #WebExplotation #Computación #Hacking 
+# Definición
+Parece que preguntas por "ofuscación". En programación y seguridad informática, la **ofuscación** es la práctica de hacer que el código sea difícil de entender o leer intencionalmente, sin cambiar su funcionalidad. Se usa para proteger software contra ingeniería inversa o hacer que los scripts sean más difíciles de modificar.

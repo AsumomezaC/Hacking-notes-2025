@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Conexión #Nexo
 # Uso de `|` (_Pipe_) en Linux
 
 ## ¿Qué es un _pipe_ (`|`)?

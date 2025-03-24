@@ -1,4 +1,5 @@
-# Comando `bvi` en Linux
+#Software #Comando #SistemaOperativo #Linux #Editar #Archivos
+- # Comando `bvi` en Linux
 
 ## 1. ¿Qué es `bvi`?
 

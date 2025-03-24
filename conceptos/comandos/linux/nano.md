@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Editar #Archivos 
 # Comando `nano` en Linux
 
 ## 1. ¿Qué es `nano`?

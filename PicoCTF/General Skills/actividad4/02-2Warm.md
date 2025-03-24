@@ -7,7 +7,7 @@ Submit your answer in our competition's flag format. For example, if your answer
 
 # Sol
 ## Sol 1
-Usando [[python]]
+Usando [[Python]]
 ```cmd
 AsumomezaC-picoctf@webshell:~$ python
 Python 3.10.12 (main, Sep 11 2024, 15:47:36) [GCC 11.4.0] on linux

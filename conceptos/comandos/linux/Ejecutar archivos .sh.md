@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Programación #Ejecución
 # Ver permisos
 ```
 ls -ls arch

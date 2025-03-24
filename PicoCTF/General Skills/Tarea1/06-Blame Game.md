@@ -5,7 +5,7 @@ Someone's commits seems to be preventing the program from working. Who is it?You
 - [challenge.zip](https://artifacts.picoctf.net/c_titan/159/challenge.zip)
 # Hints
 - In collaborative projects, many users can make many changes. How can you see the changes within one file?
-- Read the chapter on [[Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control).
+- Read the chapter on [[ic/comunes/software/programación/Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control).
 - You can use `python3 <file>.py` to try running the code, though you won't need to for this challenge.
 # Solución
 Descargamos ([[wget]]) y descomprimimos el archivo.
@@ -946,7 +946,7 @@ Date:   Tue Mar 12 00:07:15 2024 +0000
 Al final encontramos que se encontraba el autor con el nombre de la bandera.
 
 ## Solución 2
-Vemos que autores han realizado commits para buscar el culpable ([[Git#1️⃣ Ver una lista de autores y cantidad de commits]]).
+Vemos que autores han realizado commits para buscar el culpable ([[ic/comunes/software/programación/Git#1️⃣ Ver una lista de autores y cantidad de commits]]).
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in$ git shortlog -s -n --all
 

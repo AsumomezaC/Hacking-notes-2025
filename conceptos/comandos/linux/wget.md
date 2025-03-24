@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Conexión #Redes 
 # Comando `wget` en Linux
 
 ## 1. ¿Qué es `wget`?

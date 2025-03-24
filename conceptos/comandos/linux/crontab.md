@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Programación #Periódicos
 # Comando `crontab` en Linux
 
 ## 1. ¿Qué es `crontab`?

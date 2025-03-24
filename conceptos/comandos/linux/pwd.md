@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Dirección #Archivos 
 # Comando `pwd` en Linux
 
 ## 1. ¿Qué es `pwd`?

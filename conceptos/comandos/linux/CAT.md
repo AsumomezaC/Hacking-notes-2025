@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Editar #Archivos
 # Comando `cat` en [[Linux]]
 
 ## ¿Qué es `cat`?

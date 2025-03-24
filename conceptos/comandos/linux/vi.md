@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Archivos #Edición
 # Comando `vi` en Linux
 
 ## 1. ¿Qué es `vi`?

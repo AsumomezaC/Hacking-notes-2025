@@ -1,4 +1,5 @@
-**Conectarse por SSH**
+#Software #Comando #SistemaOperativo #Linux #Redes #Conexión 
+# Conectarse por SSH
 
 ```markdown
 # Conectarse a un Servidor Remoto mediante SSH

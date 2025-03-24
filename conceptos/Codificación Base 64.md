@@ -1,3 +1,4 @@
+#Programación #Encriptación #Esctritura 
 ## ¿Qué es Base64?
 
 Base64 es un método de [[codificación]] binario a texto que permite representar datos binarios en un formato de caracteres [[ASCII]]. Se utiliza comúnmente para transferir datos en entornos que solo admiten texto, como correos electrónicos, almacenamiento en bases de datos y transmisión de datos en aplicaciones web.

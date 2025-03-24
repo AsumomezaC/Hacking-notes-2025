@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Eliminar #Archivos 
 # Borrar todos los archivos
 ```bash
 rm -rf *

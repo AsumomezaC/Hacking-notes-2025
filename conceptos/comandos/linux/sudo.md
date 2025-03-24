@@ -1,3 +1,4 @@
+#Software #Comando #SistemaOperativo #Linux #Terminal #Permisos #Derechos 
 # Comando `sudo` en Linux
 
 ## 1. ¿Qué es `sudo`?
