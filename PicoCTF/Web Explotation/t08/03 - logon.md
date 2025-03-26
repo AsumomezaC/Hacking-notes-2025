@@ -7,7 +7,7 @@ The factory is hiding things from all of its users. Can you login as Joe and fin
 1. Tratamos de entrar con joe, pero no tenemos la contraseña.
 2. Por lo que probamos entrar con otro usuario, y si bien nos deja entrar, no nos regresa la bandera.
 3. Por lo que inspeccionamos la [[Red]] para ver como se maneja la solicitud.
-4. Usamos curl para loggearnos como administrados en la página:
+4. Usamos curl para loggearnos como administrados en la página (usando [[CURL]]):
 ```bash
 curl https://jupiter.challenges.picoctf.org/problem/44573/flag -H "Cookie: username=juan; password=a; admin=True"
 ```

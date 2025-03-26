@@ -29,7 +29,7 @@ Los atacantes pueden revisar `robots.txt` en un sitio web para identificar direc
 
 ### Comandos útiles
 
-Para ver el archivo en un sitio web:
+Para ver el archivo en un sitio web (usando [[CURL]]):
 
 ```
 curl -s https://ejemplo.com/robots.txt

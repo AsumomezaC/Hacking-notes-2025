@@ -5,7 +5,7 @@ This website can be rendered only by **picobrowser**, go and catch the flag! `
 - You don't need to download a new web browser
 # Solución
 Inspeccionamos la página [[HTML]] y seguimos un paso similar a [[03 - logon]].
->Como no tenemos firefox, lo hacemos desde la consola.
+>Como no tenemos firefox, lo hacemos desde la consola (usando [[CURL]]).
 
 ```bash
 C:\Users\52492>curl -s https://jupiter.challenges.picoctf.org/problem/50522/flag -H "User-Agent: picobrowser"
