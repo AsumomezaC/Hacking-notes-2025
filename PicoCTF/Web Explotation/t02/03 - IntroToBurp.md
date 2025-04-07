@@ -8,7 +8,7 @@ Try [here](http://titan.picoctf.net:65282/) to find the flag
 Primero entramos a la página que nos da el reto. Y vemos una página de autenticación, por la que la llenamos con datos aleatorios, pero de ahí nos pide una autenticación. Pero esto falla y nos indica:
 >Invalid [[OTP]]
 
-Antes que nada para este problema ocuparemos instalar [[BURP]] (Actuando como [[Men_in_the_Middle]]).
+Antes que nada para este problema ocuparemos instalar [[BURP]] (Actuando como [[Man in the Middle]]).
 
 Una ves que lo tenemos lo utilizamos para interceptar el mensaje y eliminamos el OTP, y esto nos da la bandera.
 
