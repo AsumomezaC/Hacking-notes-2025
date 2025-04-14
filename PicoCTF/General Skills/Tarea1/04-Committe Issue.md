@@ -6,7 +6,7 @@ I accidentally wrote the flag down. Good thing I deleted it!You download the cha
 
 # Hints
 - Version control can help you recover files if you change or lose them!
-- Read the chapter on [[ic/comunes/software/programación/Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control)
+- Read the chapter on [[ic/comunes/software/programación/GitHub/Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control)
 - You can 'checkout' commits to see the files inside them
 
 # Solución

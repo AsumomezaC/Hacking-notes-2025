@@ -110,7 +110,7 @@ print("Printing the flag...")
 ```
 >Alternativamente también puedes usar [[nano]].
 
-Seguimos la pista y observamos que branch existen ([[ic/comunes/software/programación/Git]]).
+Seguimos la pista y observamos que branch existen ([[ic/comunes/software/programación/GitHub/Git]]).
 
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in$ git branch -a
@@ -140,7 +140,7 @@ core.bare=false
 core.logallrefupdates=true
 ```
 
-Con esto hacemos merge de las otras ramas([[ic/comunes/software/programación/Git#1️⃣ **Usando `git merge` (Fusión de ramas)**|Fusión de ramas]]).
+Con esto hacemos merge de las otras ramas([[ic/comunes/software/programación/GitHub/Git#1️⃣ **Usando `git merge` (Fusión de ramas)**|Fusión de ramas]]).
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in$ git merge feature/part-1
 Updating 54c7842..f65544e
@@ -152,7 +152,7 @@ print("Printing the flag...")
 print("picoCTF{t3@mw0rk_", end='')
 ```
 
->Al intentar realizar el próximo merge, nos marca un error, por lo que nos [[ic/comunes/software/programación/Git#local|Registramos localmente]].
+>Al intentar realizar el próximo merge, nos marca un error, por lo que nos [[ic/comunes/software/programación/GitHub/Git#local|Registramos localmente]].
 
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in$ git merge feature/part-2
@@ -185,7 +185,7 @@ print("m@k3s_th3_dr3@m_", end='')
 >>>>>>> feature/part-2
 ```
 
-De ahí, si intentamos hacer el último merge, no podemos pq hay un [[ic/comunes/software/programación/Git#Resolver conflictos en un merge de Git|conflicto que debemos de resolver]]. 
+De ahí, si intentamos hacer el último merge, no podemos pq hay un [[ic/comunes/software/programación/GitHub/Git#Resolver conflictos en un merge de Git|conflicto que debemos de resolver]]. 
 
 ```bash
 nano flag.py 

@@ -1,9 +1,6 @@
 #Software #Comando #SistemaOperativo #Linux #Editar #Archivos 
 # Comando `string`
 
-````markdown
-# Comando `string`
-
 El comando `strings` en Linux/Unix se utiliza para buscar y mostrar cadenas de texto legibles dentro de archivos binarios, de texto o cualquier otro archivo que contenga datos en formato binario. Este comando es útil cuando quieres ver el contenido legible de archivos que no están en un formato de texto puro (por ejemplo, archivos ejecutables o archivos binarios).
 
 ## Sintaxis

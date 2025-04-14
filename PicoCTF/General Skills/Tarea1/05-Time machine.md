@@ -5,7 +5,7 @@ What was I last working on? I remember writing a note to help me remember...You 
 - [challenge.zip](https://artifacts.picoctf.net/c_titan/163/challenge.zip)
 # Hints
 - The `cat` command will let you read a file, but that won't help you here!
-- Read the chapter on [[ic/comunes/software/programación/Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control).
+- Read the chapter on [[ic/comunes/software/programación/GitHub/Git]] from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control).
 - When committing a file with git, a message can (and should) be included.
 # Solución
 
@@ -82,7 +82,7 @@ drwxr-xr-x 8 AsumomezaC-picoctf AsumomezaC-picoctf 166 Mar 12  2024 .git
 -rw-r--r-- 1 AsumomezaC-picoctf AsumomezaC-picoctf  87 Mar 12  2024 message.txt
 ```
 
-Como las [[#Hints]] nos dicen que no usemos [[CAT]] y que la respuesta esta en [[ic/comunes/software/programación/Git]], por lo cual eso es lo que hacemos.
+Como las [[#Hints]] nos dicen que no usemos [[CAT]] y que la respuesta esta en [[ic/comunes/software/programación/GitHub/Git]], por lo cual eso es lo que hacemos.
 
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in/drop-in$ git log

@@ -1,4 +1,4 @@
-Para guardar cambios en [[ic/comunes/software/programación/Git]] debes de ejecutar estos comandos:
+Para guardar cambios en [[ic/comunes/software/programación/GitHub/Git]] debes de ejecutar estos comandos:
 
 ```bash
 d:
