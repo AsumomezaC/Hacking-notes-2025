@@ -21,7 +21,7 @@ capture.pcap        100%[================>] 233.84K   253KB/s    in 0.9s 
 2025-04-07 14:30:58 (253 KB/s) - ‘capture.pcap’ saved [239455/239455]  
 ```
   
- Y vemos que descargamos un [[Archivos .pcap]]
+ Y vemos que descargamos un [[Archivo .pcap]]
                                                                                
 ```bash
 ┌──(kali㉿kali)-[~]  
