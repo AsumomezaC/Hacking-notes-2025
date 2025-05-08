@@ -11,7 +11,7 @@ I accidentally wrote the flag down. Good thing I deleted it!You download the cha
 
 # Solución
 
-Primero descargamos el archivo con [[NET CAT]]
+Primero descargamos el archivo con [[NET CAT (nc)]]
 ```bash
 AsumomezaC-picoctf@webshell:~$ wget https://artifacts.picoctf.net/c_titan/77/challenge.zip
 --2025-02-28 01:09:50--  https://artifacts.picoctf.net/c_titan/77/challenge.zip

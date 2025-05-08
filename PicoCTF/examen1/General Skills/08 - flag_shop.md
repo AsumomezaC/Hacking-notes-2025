@@ -5,7 +5,7 @@ There's a flag shop selling stuff, can you buy a flag? [Source](https://jupiter
 # Hints
 - Two's compliment can do some weird things when numbers get really big!
 # Solución
-Comenzamos descargando el archivo como es costumbre, al tenerlo nos conectaremos con [[NET CAT]]: `nc jupiter.challenges.picoctf.org 9745`. Entramos a una interfaz y seguimos los pasos para 'comprar la bandera'.
+Comenzamos descargando el archivo como es costumbre, al tenerlo nos conectaremos con [[NET CAT (nc)]]: `nc jupiter.challenges.picoctf.org 9745`. Entramos a una interfaz y seguimos los pasos para 'comprar la bandera'.
 ```bash
 AsumomezaC-picoctf@webshell:~$ nc jupiter.challenges.picoctf.org 9745
 Welcome to the flag exchange

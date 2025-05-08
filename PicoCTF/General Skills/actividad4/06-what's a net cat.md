@@ -6,7 +6,7 @@ Using netcat (nc) is going to be pretty important. Can you connect to `jupiter.
 nc [tutorial](https://linux.die.net/man/1/nc)
 
 # Solución
-Ingresamos al servidor usando [[NET CAT]]
+Ingresamos al servidor usando [[NET CAT (nc)]]
 
 ```cmd
 AsumomezaC-picoctf@webshell:~$ nc jupiter.challenges.picoctf.org 41120

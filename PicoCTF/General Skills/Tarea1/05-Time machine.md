@@ -9,7 +9,7 @@ What was I last working on? I remember writing a note to help me remember...You 
 - When committing a file with git, a message can (and should) be included.
 # Solución
 
-Primero descargamos el archivo(con [[NET CAT]]) y lo descomprimimos.
+Primero descargamos el archivo(con [[NET CAT (nc)]]) y lo descomprimimos.
 ```bash
 AsumomezaC-picoctf@webshell:~/drop-in$ wget https://artifacts.picoctf.net/c_titan/163/challenge.zip
 --2025-02-28 01:31:29--  https://artifacts.picoctf.net/c_titan/163/challenge.zip

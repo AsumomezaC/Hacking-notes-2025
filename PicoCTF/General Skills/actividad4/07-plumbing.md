@@ -5,7 +5,7 @@ Sometimes you need to handle process data outside of a file. Can you find a way 
 1. Remember the flag format is picoCTF{XXXX}
 2. What's a pipe? No not that kind of pipe... This [kind](http://www.linfo.org/pipes.html)
 # Solución
-1. te conectas con [[NET CAT]]
+1. te conectas con [[NET CAT (nc)]]
 ## Sol 1
 
 1. Mande la salida a un archivo

@@ -6,7 +6,7 @@ Can you abuse the banner?The server has been leaking some crucial information on
 - Do you know about symlinks?
 - Maybe some small password cracking or guessing
 # Solución
-Primero usamos [[NET CAT]] para conectarnos al primer puerto, pero este nos da una contraseña:
+Primero usamos [[NET CAT (nc)]] para conectarnos al primer puerto, pero este nos da una contraseña:
 
 ```bash
 AsumomezaC-picoctf@webshell:~$ nc tethys.picoctf.net 50206

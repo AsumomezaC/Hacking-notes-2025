@@ -6,7 +6,7 @@ Start searching for the flag here `nc titan.picoctf.net 63761`
 (None)
 # Solución
 
-Ingresamos al [[NET CAT|servidor]] y realizamos las [[Operaciones Básicas en Binario]] que se nos pidan para obtener la bandera.
+Ingresamos al [[NET CAT (nc)|servidor]] y realizamos las [[Operaciones Básicas en Binario]] que se nos pidan para obtener la bandera.
 
 ```bash
 AsumomezaC-picoctf@webshell:~$ nc titan.picoctf.net 63761

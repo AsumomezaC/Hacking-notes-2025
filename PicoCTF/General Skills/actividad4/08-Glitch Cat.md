@@ -10,7 +10,7 @@ Additional details will be available after launching your challenge instance.
 - Press Ctrl and c on your keyboard to close your connection and return to the command prompt.
 
 # Solución
-Ingresamos con [[NET CAT]] al servidor.
+Ingresamos con [[NET CAT (nc)]] al servidor.
 
 ```cmd
 AsumomezaC-picoctf@webshell:~$ nc saturn.picoctf.net 63819

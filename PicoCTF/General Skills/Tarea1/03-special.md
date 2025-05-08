@@ -6,7 +6,7 @@ Don't power users get tired of making spelling mistakes in the shell? Not anymor
 # Hints
 - Experiment with different shell syntax
 # Solución
-Primero ingresamos al servidor usando [[NET CAT]].
+Primero ingresamos al servidor usando [[NET CAT (nc)]].
 
 ```bash
 AsumomezaC-picoctf@webshell:~$ ssh -p 52494 ctf-player@saturn.picoctf.net

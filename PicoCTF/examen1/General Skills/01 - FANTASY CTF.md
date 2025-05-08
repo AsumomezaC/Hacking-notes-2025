@@ -5,7 +5,7 @@ Play this short game to get familiar with terminal applications and some of the 
 # Hints
 - When a choice is presented like [a/b/c], choose one, for example: `c` and then press Enter.
 # Solución
-Parte 1: Instalar primero [[NET CAT]] sudo apt install netcat-openbsd o sudo apt install netcat
+Parte 1: Instalar primero [[NET CAT (nc)]] sudo apt install netcat-openbsd o sudo apt install netcat
 
 Parte 2: Ingresar este comando nc verbal-sleep.picoctf.net 61243 -Después darle enter hasta salir las opciones. Elegir primero C y volverle a dar enter, hasta volver a ingresar una opción y poner A, y de nuevo enter, hasta encontrar la bandera.
 

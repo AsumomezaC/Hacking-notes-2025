@@ -6,7 +6,7 @@ If you want to hash with the best, beat this test!`nc saturn.picoctf.net 50559`
 - You can use a commandline tool or web app to hash text
 - Press Ctrl and c on your keyboard to close your connection and return to the command prompt.
 # Solución
-- **Al iniciar la instancia nos dan lo siguiente: `nc saturn.picoctf.net 50559`, lo copiamos y pegamos en la terminal (con ayuda de [[NET CAT]]).**
+- **Al iniciar la instancia nos dan lo siguiente: `nc saturn.picoctf.net 50559`, lo copiamos y pegamos en la terminal (con ayuda de [[NET CAT (nc)]]).**
 
 ```bash
 AsumomezaC-picoctf@webshell:~$ nc saturn.picoctf.net 50559
