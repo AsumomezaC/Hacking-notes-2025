@@ -1,8 +1,4 @@
 #Comando #Linux #Programación #Software #Forenscic #CTF #esteganografía #Ruby
-¡Perfecto! Aquí tienes una estructura detallada para tus apuntes en **Obsidian** sobre **Zsteg**, una herramienta esencial en hacking/CTFs para analizar archivos **PNG**, **BMP** y otros formatos de imágenes en busca de datos ocultos (esteganografía).  
-
----
-
 # Zsteg
 **Zsteg** es una herramienta de línea de comandos escrita en Ruby que detecta y extrae **datos ocultos** en archivos de imágenes (PNG, BMP) mediante técnicas de esteganografía. Es comúnmente usada en CTFs (*Capture The Flag*) y análisis forense digital.
 
