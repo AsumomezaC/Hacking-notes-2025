@@ -26,7 +26,7 @@
    - Clave simétrica intercambiada de forma segura vía RSA/ECDH.
 
 ## 📜 Beneficios
-- **Seguridad**: Evita [[Ataques Man-in-the-Middle]] y [[Sniffing]].
+- **Seguridad**: Evita [[Man in the Middle]] y [[Sniffing]].
 - **SEO**: Google prioriza sitios HTTPS.
 - **Confianza**: Muestra el candado verde en el navegador.
 
